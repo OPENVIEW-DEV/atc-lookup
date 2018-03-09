@@ -1,0 +1,31 @@
+{
+  "name": "entry",
+  "plural": "entries",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "ddd": {
+      "type": "number"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "admroute": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
